@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Module 2 Class Activity</title>
+		<meta charset="utf-8">
+		<style>
+			
+		</style>
+	</head>
+	<body>
+		<h1>CAMPUS FEEDBACK FORM</h1>
+		<div id="campus_visit_feedback_form">
+			<form method="POST" action="http://www.deitel.com">
+				<!-- HIDDEN FORM INFORMATION -->
+				<input type="hidden" name="recipient" value="deitel@deitel.com">
+				<input type="hidden" name="subject" value="Feedback Form">
+				<input type="hidden" name="redirect" value="Project2_UniversityForm.html">
+
+				<!-- VISIBLE FORM INFORMATION -->
+				<br>
+				<label for="name">NAME:&emsp;</label><input type="text" id="name" name="name" required autofocus>
+				<br><br>
+				<label for="email">EMAIL:&emsp;</label><input type="text" id="email" name="email" required>
+				<br><br>
+				<br>
+				<b>What did you like most about your visit?</b>
+				<br>
+				<input type="checkbox" id="campus" name="likes_dislikes" value="campus">
+				<label for="campus">Campus</label>
+				<br>
+				<input type="checkbox" id="students" name="likes_dislikes" value="students">
+				<label for="students">Students</label>
+				<br>
+				<input type="checkbox" id="location" name="likes_dislikes" value="location">
+				<label for="location">Location</label>
+				<br>
+				<input type="checkbox" id="atmosphere" name="likes_dislikes" value="atmosphere">
+				<label for="atmosphere">Atmosphere</label>
+				<br>
+				<input type="checkbox" id="dorm_rooms" name="likes_dislikes" value="dorm_rooms">
+				<label for="dorm_rooms">Dorm Rooms</label>
+				<br>
+				<input type="checkbox" id="sports" name="likes_dislikes" value="sports">
+				<label for="sports">Sports</label>
+				<br>
+				<br>
+				<b>How did you become interested in our college?</b>
+				<br>
+				<input type="radio" id="friends" name="how_find_us" value="friends">
+				<label for="friends">Friends</label>
+				<br>
+				<input type="radio" id="TV" name="how_find_us" value="TV">
+				<label for="TV">Television</label>
+				<br>
+				<input type="radio" id="internet" name="how_find_us" value="internet">
+				<label for="internet">Internet</label>
+				<br>
+				<input type="radio" id="other" name="how_find_us" value="other">
+				<label for="other">Other</label>
+				<br>
+				<br>
+				<b>Additional comments:</b>
+				<br>
+				<textarea name="additional_comments" cols="55" rows="8" placeholder="Additional comments go here."></textarea>
+				<br>
+				<br>
+				<input type="submit" value="Submit">&emsp;
+				<input type="reset" value="Reset">
+				<br>
+				<br>
+			</form>	
+		</div>
+	</body>
+</html>

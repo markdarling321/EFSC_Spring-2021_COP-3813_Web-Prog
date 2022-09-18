@@ -1,0 +1,45 @@
+header {
+	border-style: solid;
+	border-width: 5px;
+	background-color: blueviolet;
+	padding: 1%;
+}
+.column {
+	border-style: solid;
+	border-width: 5px;
+	background-color: aquamarine;
+}
+.navlink_btn {
+	line-height: 200%;
+	border-style: dashed;
+	border-color: red;
+	background-color: rgba(94, 1, 1, 0.849);
+	cursor: pointer;
+}
+.navlink_href {
+	border-style: dashed;
+	border-color: red;
+	line-height: 200%;
+	padding: 1%;
+	background-color: rgba(94, 1, 1, 0.849);
+}
+.navigation {
+	font-size: larger;
+	color:red;
+	text-decoration: none;
+}
+.navigation:hover {
+	color: royalblue;
+}
+p {
+	padding: 5%;
+	padding-right: 4%;
+}
+#left_column {
+	float: left;
+	width: 47%;
+}
+#right_column {
+	float: right;
+	width: 47%;
+}
