@@ -1,0 +1,21 @@
+/* HTML ELEMENTS TO STYLE */
+body {
+	padding: 5px;
+	border-style: dashed;
+	border-width: 5px;
+	border-color: red;
+	font-weight: bold;
+	text-align: center;
+	min-height: 600px;
+}
+table, tr, td, th {
+	border-collapse: collapse;
+	border-color: red;
+	border-width: 5px;
+	border-style: solid;
+	padding: 10px;
+	margin: 10px;
+}
+div {
+	margin: 10px;
+}

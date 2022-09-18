@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset = "utf-8">
+		<title>Project 9 - Sales Commission</title>
+		<link type="text/css" rel="stylesheet" href="styles/style.css">
+		<script src="scripts/myscript.js"></script>
+	</head>
+	<body onload=start()>
+		<div id="assignment">
+			<h1>Project 9 - Sales Commission</h1>			
+		</div>
+		<div id="workspace">
+			<h2>Company Salary Range Counters</h2>
+			<form id="salesForm">
+				<label for="grossSales" class="grossSalesLine">Gross Sales: $ </label>
+  				<input type="text" name="grossSales" class="grossSalesLine">
+				<button type="button" onclick="addLine()" class="grossSalesLine"> + </button>
+				<button type="button" onclick="removeLine()" class="grossSalesLine"> - </button>
+				<br class="grossSalesLine">
+			</form>
+			<div id="formControls">
+				<button type="button" onclick="submitForm()">SUBMIT</button>
+				<button type="button" onclick="clearForm()">CLEAR</button>
+				<button type="button" onclick="resetForm()">RESET</button>
+			</div>
+			<div id="results"></div>
+		</div>
+	</body>
+</html>
